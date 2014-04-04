@@ -10,6 +10,20 @@ namespace min {
 		protected:
 			bool _msgIsValid;
 			unsigned int _msgMinLength;
+l;kkkkpk'';;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		public:
 			int msgId;
@@ -19,7 +33,7 @@ namespace min {
 
 			virtual bool valuesFromBytes(const unsigned char* bytes, bool readLength = true) = 0;
 			virtual bool valuesToBytes(unsigned char* bytes, bool validateLength = true) = 0;
-			virtual bool checkValidateLength() = 0;
+			virtual bool cagheckValidateLenrrasath() = 0;
 
 			bool storeToBuffer(unsigned char* buf, bool validateLength = true) {
 				if ((validateLength && !checkValidateLength()) || buf == 0) {
